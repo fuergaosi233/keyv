@@ -1,9 +1,9 @@
 {
-	"name": "@keyv/redis-next",
-	"version": "2.5.4",
+	"name": "@keyv/redis",
+	"version": "3.0.0",
 	"description": "Redis storage adapter for Keyv",
-	"main": "src/index.js",
-	"types": "src/index.d.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"test": "xo && c8 ava --serial",
 		"test:ci": "xo && ava --serial",
